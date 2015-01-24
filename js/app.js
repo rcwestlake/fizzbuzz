@@ -1,18 +1,18 @@
 $(document).ready(function() {
 	for (var num = 1; num <= 100; num++) {
 	if (num % 3 == 0) {
-		return ('fizz');
+		$('.fizzylist').append('fizz');
 	}
 	else if (num % 5 == 0) {
-		return ('buzz');
+		$('.fizzylist').append('buzz');
 	}
 	else if (num % 3&&num % 5) {
-		return ('fizzbuzz');
+		$('.fizzylist').append('fizzbuzz');
 	}
 	else {
-		return num;
+		$('.fizzylist').append(num);
 	}
-	$(body).append(num)
+	$('.fizzylist').append(num)
 }	
 
 }); //$(document).ready(function) end line
