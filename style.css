@@ -1,5 +1,4 @@
-.fizzylist {
-	text-align: vertical;
+#fizzylist {
 	margin-left: 10px;
-	max-width: 500px;
+	margin-right: -600px;
 }

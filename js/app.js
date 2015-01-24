@@ -1,16 +1,16 @@
 $(document).ready(function() {
 	for (var num = 1; num <= 100; num++) {
 		if (num % 3 == 0 && num % 5 == 0) {
-			$('.fizzylist').append('fizzbuzz');
+			$('#fizzylist ul').append("<li> 'FIZZBUZZ' </li>");
 		}	
 		else if (num % 3 == 0) {
-			$('.fizzylist').append('fizz');
+			$('#fizzylist ul').append("<li> 'fizz' </li>");
 		}
 		else if (num % 5 == 0) {
-			$('.fizzylist').append('buzz');
+			$('#fizzylist ul').append("<li> 'buzz' </li>");
 		}
 		else {
-			$('.fizzylist').append(num);
+			$('#fizzylist ul').append("<li> + num + </li>");
 		}
 	}	
 
